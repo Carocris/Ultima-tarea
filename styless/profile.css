@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo h1 {
+  margin: 0;
+}
+
+.search-bar input[type="text"] {
+  display: inline-block;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.user-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.profile-header h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-header p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+.profile-info {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.profile-info label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-info input[type="text"],
+.profile-info input[type="email"],
+.profile-info input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.profile-info input[type="date"],
+.profile-info input[type="color"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.profile-info button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.user-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,182 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  .logo img {
+    height: 50px; 
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-left: 1rem;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el contenido de la página */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Estilos para la sección de Inicio */
+  #inicio h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #inicio p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Estilos para la sección de Publicaciones */
+  #publicaciones h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #publicaciones form {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  #publicaciones form label {
+    margin-right: 1rem;
+  }
+  
+  #publicaciones form select, #publicaciones form input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  #publicaciones form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  #publicaciones form button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  /* Estilos para la sección de Publicar */
+  #publicar form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #publicar form label {
+    margin-bottom: 0.5rem;
+  }
+  
+  #publicar form input[type="text"], #publicar form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  #publicar form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  #publicar form button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  /* Estilos para la sección de Perfil */
+  #perfil form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #perfil form label {
+    margin-bottom: 0.5rem;
+  }
+  
+  #perfil form input[type="password"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  #perfil form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  #perfil form button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  /* Estilos
+  
