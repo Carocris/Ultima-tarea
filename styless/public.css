@@ -1,3 +1,7 @@
+body {
+  background-color: #f2f2f2; /* Cambia el valor hexadecimale para ajustar el tono de gris a tu gusto */
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -9,6 +13,7 @@ nav {
   
   .logo h1 {
     margin: 0;
+    color: white;
   }
 
   .public {
@@ -37,6 +42,23 @@ nav {
   .categories-dropdown {
     position: relative;
   }
+
+  
+  .post {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+  
+  .post img {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+
+  }
+
+  
+  
   
   .dropbtn {
     background-color: #333;
